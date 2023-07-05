@@ -224,3 +224,19 @@ th {
     border-radius: 10px;
 
 }
+
+/*form css*/
+
+#join {
+    padding: 100px;
+    margin: 0;
+    width: 40%;
+    text-align: left;
+}
+
+#join div {
+    display: flex;
+    flex-direction: column;
+    color: orange;
+
+}
