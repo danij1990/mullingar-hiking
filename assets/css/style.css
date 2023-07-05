@@ -241,6 +241,15 @@ th {
 
 }
 
+/*thank you thml page*/
+
+#thank-you {
+    display: flex;
+    align-items: center;
+}
+
+
+
 /*media Queries 1010 */
 
 @media screen and (max-width:1000px) {
