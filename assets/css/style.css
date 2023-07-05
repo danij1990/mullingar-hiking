@@ -61,3 +61,43 @@ nav ul li a {
 a:hover {
     border-bottom: none;
 }
+
+/* about us section  and picture floating the main screen*/
+#man {
+    width: 20%;
+    height: auto;
+    left: 10%;
+    border-radius: 50%;
+    border: 8px ridge orange;
+    position: top;
+}
+
+#story {
+    display: flex;
+    padding-bottom: 200px;
+
+}
+
+.mission {
+    padding-top: 200px;
+
+}
+
+
+.about-us {
+    position: relative;
+    padding: 125px;
+
+
+}
+
+.about-us h1 {
+    text-align: center;
+    font-size: 60px;
+    color: orange;
+
+}
+
+.words {
+    padding: 100px;
+}
