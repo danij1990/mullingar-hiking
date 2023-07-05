@@ -101,3 +101,40 @@ a:hover {
 .words {
     padding: 100px;
 }
+
+/*palces to hike and there hights*/
+.heading-hikes {
+    color: orange;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding-bottom: 50px;
+
+}
+
+#hikes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding-bottom: 300px;
+
+}
+
+#hikes h2 {
+    color: orange;
+}
+
+td,
+th {
+    border: 1px solid orange;
+    /* Add a border to each cell */
+    padding: 8px;
+}
+
+th {
+    background-color: orange;
+    /* Set background color for table header cells */
+    font-weight: bold;
+}
