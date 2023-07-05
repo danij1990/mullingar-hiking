@@ -240,3 +240,65 @@ th {
     color: orange;
 
 }
+
+/*media Queries 1010 */
+
+@media screen and (max-width:1000px) {
+    #story {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #man {
+        display: none
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin-bottom: 10px;
+
+    }
+
+    nav li a {
+        display: block;
+
+    }
+
+    #hikes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+
+    }
+
+
+
+    #travel-flex-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    .gallery img {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
