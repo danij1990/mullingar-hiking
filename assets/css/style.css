@@ -129,12 +129,79 @@ a:hover {
 td,
 th {
     border: 1px solid orange;
-    /* Add a border to each cell */
     padding: 8px;
 }
 
 th {
     background-color: orange;
-    /* Set background color for table header cells */
-    font-weight: bold;
+  font-weight: bold;
+}
+
+/* travel-flex-container section with images */
+
+#travel-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.travel {
+    width: 20%;
+}
+
+.travel img {
+    width: 90%;
+    height: 80%;
+
+}
+
+.places {
+    color: orange;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+.places h1 {
+    border: 4px solid white;
+    border-radius: 10px;
+}
+
+/*footer */
+
+.footer {
+    background-color: orange;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+
+.mhg-social {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mhg-social li {
+    margin-right: 10px;
+
+}
+
+.mhg-social i {
+    font-size: 300%;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: black;
+
 }
