@@ -1,39 +1,24 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Mullingar Hiking Group Website
 
-Welcome,
+## This website is to encourage people to get up, get active, view our pictures and join our group
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Table of Contents
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+- [Description]
+- [Technologies Used]
+- [Features]
+- [Contact]
 
-## Codeanywhere Reminders
+## Description
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+This website aims to enhance the brand of Mullingar Hiking, which has experienced significant growth in its membership over the past few years. The breathtaking pictures captured during these hikes are truly exceptional. To showcase these remarkable experiences, I have created a gallery page where people can also share their own hiking adventures through the website
 
-`python3 -m http.server`
+## Technologies Used
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+In this project, I utilized HTML and CSS. Throughout the process, I sought guidance and inspiration from various outlets. One of my go-to resources was the One Month Podcast, which provided invaluable tips and tricks for mastering these languages. To enhance my understanding of flexbox, I extensively explored W3Schools, experimenting with code and gaining hands-on experience. Additionally, I found great value in watching YouTube videos from channels such as Web Dev Cody, LinkedIn Learning, and Bro Code. For text fonts, I leveraged Google Fonts, while Unsplash served as a reliable source for captivating background and gallery images, sourced specifically from the Mullingar Hiking Group, to help with my grammer and speeling I used Chat GPT Lastly, I incorporated Font Awesome for social media icons.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## Features
 
-`http_server`
+Highlight the key features or functionalities of your project.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
----
-
-Happy coding!
+## Contact
