@@ -295,8 +295,17 @@ th {
         display: none
     }
 
+        #logo {
+        color: white;
+        display: flex;
+        display: block;
+      
+    
+        }
+
         nav {
-            width: 100%;
+            
+        width: 100%;
         }
     
         nav ul {
