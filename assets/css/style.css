@@ -317,13 +317,14 @@ th {
         }
     
         nav ul li {
-            display: block;
+           
             margin: 10px 0;
             
         }
     nav li a {
         display: block;
         justify-content: center;
+        display: inline;
 
     }
 
