@@ -150,19 +150,19 @@ th {
 
 #travel-flex-container {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
 
 }
 
 .travel {
-    width: 20%;
+    width: 40%;
 }
 
 .travel img {
     width: 90%;
     height: 80%;
+    
 
 }
 
@@ -241,6 +241,7 @@ th {
     margin: 0;
     width: 40%;
     text-align: left;
+    
 }
 
 #join div {
@@ -337,27 +338,21 @@ th {
 
 
     }
+        #hikes th,
+        #hikes td {
+            padding: 10px;
+            text-align: left;
+        }
 
 
 
-    #travel-flex-container {
-        display: flex;
-        flex-direction: column;
-
-    }
+   
 
 
-    .gallery img {
-        display: flex;
-        flex-direction: column;
-    }
-#hikes th,
-#hikes td {
-    padding: 10px;
-    text-align: left;
 }
 
-}
+
+/* add style for smaller mobile screens*/
 
 @media (max-width: 600px) {
     #story {
@@ -405,14 +400,7 @@ th {
         }
     
 
-     #travel-flex-container {
-            display: flex;
-            flex-direction: column;
-    
-        }
-    
-    
-        .gallery img {
+   .gallery img {
             display: flex;
             flex-direction: column;
         }
