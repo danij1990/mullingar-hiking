@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: black;
+    background: rgba(0, 0, 0, 0.2);
     font-family: agdasima, sans-serif;
     color: white;
 
