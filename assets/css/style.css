@@ -82,6 +82,13 @@ a:hover {
     position: top;
 }
 
+#kens-flag {
+    width: 20%;
+        height: auto;
+        border-radius: 50%;
+        position: top;
+}
+
 #story {
     display: flex;
     padding-bottom: 200px;
