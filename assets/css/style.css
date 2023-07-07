@@ -238,35 +238,27 @@ th {
 
 /*form css*/
 
-form#join {
-    width: 500px;
-    /* Adjust the width as desired */
-    margin: 0 auto;
-    /* Center the form horizontally */
-    box-sizing: border-box;
-    /* Include padding and borders in the width calculation */
-    padding: 100px;
-    
+.form-container
+{
+        display: flex;
+        justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            padding:220px;
 }
+ .form-input {
+     width: 100%;
+     padding: 10px;
+     margin-bottom: 10px;
+     justify-content: space-around;
+     flex-direction: column ;
+ }
 
-form#join div {
-    margin-bottom: 10px;
-    /* Adjust the spacing between form elements */
-}
-
-form#join label {
-    display: block;
-}
-
-form#join input[type="text"],
-form#join input[type="email"],
-form#join input[type="date"],
-form#join input[type="submit"] {
-   width: 100%;
-  
-    box-sizing: border-box;
-   
-}
+ .form-submit {
+     width: 100%;
+     padding: 20px;
+   border: none;
+ }
 
 
 #thank-you {
@@ -516,10 +508,5 @@ form#join input[type="submit"] {
     #hikes td:nth-of-type(4):before {
         content: "Munster: ";
     }
-        #join {
-            display: flex;
-           flex-direction: column;
-           justify-content: center;
-            
-        }
+
 }
