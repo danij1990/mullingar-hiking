@@ -238,11 +238,15 @@ th {
 
 /*form css*/
 
-.form-container
+.container {
+      padding: 20px;
+}
+
+#join
 {
         display: flex;
-        justify-content: center;
-            flex-direction: column;
+        flex-direction: column;
+        
             align-items: center;
             padding:220px;
 }
@@ -250,14 +254,16 @@ th {
      width: 100%;
      padding: 10px;
      margin-bottom: 10px;
-     justify-content: space-around;
-     flex-direction: column ;
+    
+    
+     
  }
 
  .form-submit {
      width: 100%;
      padding: 20px;
    border: none;
+   padding: 20px;
  }
 
 
