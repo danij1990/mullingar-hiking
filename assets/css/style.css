@@ -79,14 +79,14 @@ a:hover {
     height: auto;
     left: 15%;
     border-radius: 50%;
-    position: top;
+    
 }
 
 #kens-flag {
     width: 20%;
         height: auto;
         border-radius: 50%;
-        position: top;
+        
 }
 
 #story {
@@ -230,7 +230,7 @@ th {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    flex: wrap;
+    
 }
 
 .gallery img {
@@ -286,7 +286,7 @@ th {
     color: orange;
     font-size: 50px;
     padding-bottom: 100px;
-    margin-bottom: 0x;
+    margin-bottom: 0px;
 }
 
 #thank-you p {
