@@ -47,7 +47,7 @@ nav ul {
     float: right;
     margin-right: 20px;
     display: flex;
-    display: inline;
+    flex-direction: row;
 
 
 }
@@ -423,7 +423,7 @@ th {
 
 /* add style for smaller mobile screens*/
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
     #story {
         display: flex;
         flex-direction: column;
@@ -439,6 +439,7 @@ th {
         color: white;
         display: flex;
         display: block;
+        font-size: 22px;
 
 
     }
@@ -462,10 +463,12 @@ th {
 
     }
 
-    nav li a {
+    nav ul li a {
         display: block;
         justify-content: center;
         display: inline;
+        font-size: 14px;
+        flex-wrap: wrap;
 
     }
 
