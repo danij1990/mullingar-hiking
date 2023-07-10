@@ -82,13 +82,14 @@ a:hover {
     align-items: center;
     width: 25%;
     height: auto;
+    margin: auto;
   }
 
 #story {
     display: flex;
-    padding-bottom: 200px;
-
+   
 }
+
 
 .mission {
     padding-top: 200px;
@@ -407,7 +408,7 @@ th {
         content: "Munster: ";
     }
 
-
+    
 }
 
 
@@ -530,5 +531,13 @@ th {
     #hikes td:nth-of-type(4):before {
         content: "Munster: ";
     }
+
+         #join {
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             padding: 220px;
+             margin: auto;
+         }
 
 }
