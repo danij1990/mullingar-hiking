@@ -83,16 +83,16 @@ a:hover {
     width: 25%;
     height: auto;
     margin: auto;
-  }
+}
 
 #story {
     display: flex;
-   
+
 }
 
 
 .mission {
-    padding-top: 200px;
+   padding-top: 200px;
 
 }
 
@@ -112,7 +112,7 @@ a:hover {
 }
 
 .words {
-    padding: 100px;
+     padding: 100px;
     font-size: 25px;
 }
 
@@ -309,10 +309,17 @@ th {
         align-items: center;
     }
 
+                p {
+                    width: 80vw;
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+
     .words {
         justify-content: center;
         text-align: center;
-        width:100%;
+        width: 100%;
     }
 
 
@@ -408,7 +415,7 @@ th {
         content: "Munster: ";
     }
 
-    
+
 }
 
 
@@ -425,16 +432,6 @@ th {
 /* add style for smaller mobile screens*/
 
 @media (max-width: 450px) {
-    #story {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
- }
-
-    #man {
-        display: none
-    }
-
     #logo {
         color: white;
         display: flex;
@@ -471,6 +468,19 @@ th {
         flex-wrap: wrap;
 
     }
+
+    #story {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    p {
+    width: 80vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
 
     .gallery img {
@@ -532,12 +542,12 @@ th {
         content: "Munster: ";
     }
 
-         #join {
-             display: flex;
-             flex-direction: column;
-             align-items: center;
-             padding: 220px;
-             margin: auto;
-         }
+    #join {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 220px;
+        margin: auto;
+    }
 
 }
