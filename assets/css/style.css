@@ -424,7 +424,7 @@ th {
 
 /* add style for smaller mobile screens*/
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     #story {
         display: flex;
         flex-direction: column;
