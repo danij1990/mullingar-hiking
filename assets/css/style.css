@@ -475,11 +475,16 @@ th {
         align-items: center;
     }
 
+    .about-us h1 {
+        font-size: 40px;
+    }
+
     p {
     width: 80vw;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: solid white 2px;
   }
 
 
@@ -487,6 +492,10 @@ th {
         display: flex;
         flex-direction: column;
     }
+
+        .heading-hikes {
+            font-size: 30px;
+        }
 
     #hikes {
         display: block;
