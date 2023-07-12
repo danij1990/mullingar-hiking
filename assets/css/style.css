@@ -80,7 +80,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25%;
+    width: 20%;
     height: auto;
     margin: auto;
 }
@@ -185,7 +185,7 @@ th {
     border-radius: 10px;
 }
 
-/*footer */
+/*footer css styling  */
 
 .icons {
     background-color: orange;
@@ -548,7 +548,7 @@ th {
     }
 
     .form-container{
-        display: flex;
+        display:contents;
         flex-direction: column;
         justify-content:center;
         align-items: center;
