@@ -76,15 +76,6 @@ a:hover {
 /* about us section  and picture floating the main screen*/
 
 
-#kens-flag {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20%;
-    height: auto;
-    margin: auto;
-}
-
 #story {
     display: flex;
 
@@ -420,6 +411,7 @@ th {
 
         width: fit-content;
     }
+
 }
 
 
@@ -548,12 +540,17 @@ th {
     }
 
     .form-container {
-        display: contents;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 220px;
         margin-top: -40%;
+    }
+
+    .form-container form{
+        margin-right: 60px;
+        width: 200px;
     }
 
     #thank-you p {
