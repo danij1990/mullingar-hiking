@@ -251,14 +251,14 @@ th {
     margin-top: -10%;
 }
 
-#join > input {
+#join>input {
     width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 
@@ -416,10 +416,10 @@ th {
         content: "Munster: ";
     }
 
-   #thank-you p {
+    #thank-you p {
 
-       width: fit-content;
-   }
+        width: fit-content;
+    }
 }
 
 
@@ -480,7 +480,7 @@ th {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        
+
     }
 
 
@@ -547,17 +547,17 @@ th {
         content: "Munster: ";
     }
 
-    .form-container{
-        display:contents;
+    .form-container {
+        display: contents;
         flex-direction: column;
-        justify-content:center;
+        justify-content: center;
         align-items: center;
         padding: 220px;
-        margin-top:-40%;
+        margin-top: -40%;
     }
 
     #thank-you p {
-        width:fit-content;
+        width: fit-content;
     }
 
 }
