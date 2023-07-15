@@ -16,7 +16,9 @@
 
 ## Technologies Used
 
-In this project, I utilized HTML and CSS. Throughout the process, I sought guidance and inspiration from various outlets. One of my go-to resources was the One Month Podcast, which provided invaluable tips and tricks for mastering these languages. To enhance my understanding of flexbox, I extensively explored W3Schools, experimenting with code and gaining hands-on experience. Additionally, I found great value in watching YouTube videos from channels such as Kevin Powell, LinkedIn Learning, and Dee Mc. For text fonts, I leveraged Google Fonts, while Unsplash served as a reliable source for captivating background and gallery images, sourced specifically from the Mullingar Hiking Group. To help with my grammar and spelling, I used ChatGPT. Lastly, I incorporated Font Awesome for social media icons.
+In this project, I utilized HTML and CSS. Throughout the process, I sought guidance and inspiration from various outlets. One of my go-to resources was the One Month Podcast and my Coding for Dummies book, which provided invaluable tips and tricks for mastering these languages. To enhance my understanding of flexbox, I extensively explored W3Schools, experimenting with code and gaining hands-on experience. Additionally, I found great value in watching YouTube videos from channels such as Kevin Powell, LinkedIn Learning, and Dee Mc. For text fonts, I leveraged Google Fonts, while Unsplash served as a reliable source for captivating background and gallery images, sourced specifically from the Mullingar Hiking Group. To help with my grammar and spelling, I used ChatGPT. Lastly, I incorporated Font Awesome for social media icons.
+
+"My idea was a simple one: to build a three-page portfolio-style website. However, instead of it being for an individual, this portfolio would be for our hiking group. I will continue to add to it as I learn more about Javascript and PHP in the coming months. Eventually, I plan to put it live on the web."
 
 The most difficult part of this project was making the site responsive to smaller screen sizes. I used a few different outlets for ideas, and then I utilized dev tools with the information I had to tweak my project.
 
@@ -38,6 +40,10 @@ https://www.youtube.com/watch?v=HKWtJPumb7g&t=321s
 W3 Schools : https://www.w3schools.com/css/css_table.asp
 
 After exploring these options and using W3Schools, I would rewrite the code multiple times and also paste it into ChatGPT to finally get the correct syntax.
+
+After watching Dee Mc's video on Flexbox, I realized what a powerful tool it is. I then created a container for the first time at the bottom of my home page, containing images from the Mullingar Hiking Group's trip to Mont Blanc in France. I also used a container on my form.html page. To practice different scenarios, I utilized W3Schools and dev tools.
+
+Coding for Dummies: Book 3, Chapter 5, 'Responsive Flexbox,' was also a massive help. This book has been a valuable tool, and I intend to continue using it in the future.
 
 Adding my Favicon I used https://favicon.io/favicon-converter/
 
@@ -82,10 +88,18 @@ Please refer to the attached screenshots for a visual representation of the prob
 
 ![Image not rendered correctly](assets/images/notrenderd.jpg)
 
+I spent the whole day on Slack and Stack Overflow looking for a fix for this bug. I posted my project for review in the peer-review section of Slack. A few kind people responded with different suggestions, but none of them worked. Eventually, I received more tutoring support from Code Institute, and Sean suggested that I might be using too much padding on the homepage elements for smaller screen sizes. I went through my CSS and noticed that I had a lot of padding on my 'about-us' and 'our mission' sections. I removed the padding and added a margin of 20px. Finally, my project started rendering correctly. I have attached a screenshot of the padding I removed from a previous Git commit.
+
+[Image not rendered correctly](assets/images/bugfix.png)
+
 ## Contact
 
 Daniel Hughes, Mullingar Co Westmeath, Ireland.
+
 Phone : +353 852570069
+
 Email : danijhughes@gmail.com
+
 Git Hub : danij1990
+
 Linkedin: https://www.linkedin.com/in/daniel-hughes-36a948258/
