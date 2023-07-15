@@ -78,24 +78,30 @@ a:hover {
 
 /* about us section  and picture floating the main screen*/
 
+#kens-flag {
+    width: 7%;
+    height: 7%;
+    display: block;
+    margin: 0 auto;
+}
 
 #story {
     display: flex;
+}
 
+#story p {
+    margin: 20px;
+    margin-bottom: 100px;
 }
 
 
 .mission {
     padding-top: 200px;
-
 }
 
 
 .about-us {
     position: relative;
-    /*padding: 125px;*/
-
-
 }
 
 .about-us h1 {
@@ -310,6 +316,11 @@ th {
         align-items: center;
     }
 
+    #kens-flag {
+        width: 9%;
+        height: 9%;
+    }
+
     .about-us p {
         width: 70vw;
         margin: 0;
@@ -467,6 +478,11 @@ th {
 
     }
 
+    #kens-flag {
+        width: 11%;
+        height: 11%;
+    }
+
     .about-us h1 {
         font-size: 40px;
     }
@@ -609,6 +625,11 @@ th {
 
     }
 
+    #kens-flag {
+        width: 15%;
+        height: 15%;
+    }
+
     #story {
         display: flex;
         flex-direction: column;
@@ -663,7 +684,6 @@ th {
     #hikes td {
         border: none;
         position: relative;
-        padding-left: 50%;
         text-align: left;
 
     }
@@ -673,7 +693,6 @@ th {
         top: 6px;
         left: 6px;
         width: 45%;
-        padding-right: 10px;
         white-space: nowrap;
     }
 
