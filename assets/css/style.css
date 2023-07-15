@@ -423,12 +423,12 @@ th {
 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 780px) {
     #logo {
         color: white;
         display: flex;
         display: block;
-        font-size: 22px;
+        font-size: 40px;
 
 
     }
@@ -487,7 +487,7 @@ th {
     }
 
     .heading-hikes {
-        font-size: 30px;
+        font-size: 50px;
     }
 
     #hikes {
@@ -503,6 +503,7 @@ th {
         display: block;
         display: flex;
         flex-direction: column;
+        font-size: larger;
     }
 
     #hikes thead tr {
@@ -554,15 +555,17 @@ th {
     }
 
     .form-container form {
-        margin-right: 60px;
-        width: 200px;
-    }
-
-    #thank-you p {
-        width: fit-content;
+        padding-top: inherit;
+        width: 80%;
     }
 
 }
+
+#thank-you p {
+    width: fit-content;
+}
+
+
 
 
 
@@ -649,6 +652,7 @@ th {
         display: block;
         display: flex;
         flex-direction: column;
+        font-size: inherit;
     }
 
     #hikes thead tr {
