@@ -22,7 +22,7 @@ In this project, I utilized HTML and CSS. Throughout the process, I sought guida
 
 The most difficult part of this project was making the site responsive to smaller screen sizes. I used a few different outlets for ideas, and then I utilized dev tools with the information I had to tweak my project.
 
-Here are some links to videos that helped me.
+Here are some links to videos that helped me with my Home Page.
 
 Kevin Powell : 5 simple tips to making responsive layouts the easy way
 https://www.youtube.com/watch?v=VQraviuwbzU&t=365s
@@ -34,12 +34,14 @@ Making my "Peaks by Province" table section was a challenge. I used a few differ
 
 CSS Tricks : https://css-tricks.com/under-engineered-responsive-tables/
 
+Chat GPT : https://chat.openai.com/
+
 Ravi Web : How To Create Responsive Table In HTML & CSS || How To Make Responsive Table Using HTML & CSS
 https://www.youtube.com/watch?v=HKWtJPumb7g&t=321s
 
 W3 Schools : https://www.w3schools.com/css/css_table.asp
 
-After exploring these options and using W3Schools, I would rewrite the code multiple times and also paste it into ChatGPT to finally get the correct syntax.
+After exploring these options and using W3Schools, I would rewrite the code multiple times and see what worked best.
 
 After watching Dee Mc's video on Flexbox, I realized what a powerful tool it is. I then created a container for the first time at the bottom of my home page, containing images from the Mullingar Hiking Group's trip to Mont Blanc in France. I also used a container on my form.html page. To practice different scenarios, I utilized W3Schools and dev tools.
 
@@ -49,6 +51,21 @@ Adding my Favicon I used https://favicon.io/favicon-converter/
 
 I followed the stpes from Dee Mc in her Youtube Video
 https://www.youtube.com/watch?v=W809I-d9xTg&t=2s
+
+Gallery page :
+
+My gallery page was a lot more straightforward. I used the same navigation and footer as my home page to maintain consistency in the UX design flow of the website. For the layout, I employed a simple HTML structure and styled the page using flex, as mentioned in the home page section. The images used on my gallery page were either mine or were sent to me by members of the hiking group. I wanted to keep the website as authentic as possible.
+
+Form page (Join our family):
+
+For my form page I watched : 24: Forms In HTML and CSS | How To Create A Form | Learn HTML and CSS | HTML Tutorial | CSS Tutorial by Danni Krossing
+https://www.youtube.com/watch?v=E5MEzC0prd4
+
+This video gave me multiple ideas to work with, and I experimented with various types of forms and flex directions. I found it difficult to maintain form consistency on smaller screens, but by using dev tools and trying hundreds of different variations, I eventually achieved satisfaction with the final product. Once again, I utilized the same navigation and footer as the previous pages to maintain consistency in the flow of the website.
+
+Thank you page :
+
+With no PHP database to store my form entries, my mentor suggested creating a thank you page. I designed a simple HTML page, once again utilizing the same navigation and footer as the previous pages to maintain consistency in the flow of the website. On this page, I included a straightforward H1 'Thank you' heading with a brief message. Additionally, I implemented a Meta Refresh and linked it to my index.html page, so after 10 seconds, the user would be redirected back to the homepage of my site.
 
 ## Features
 
