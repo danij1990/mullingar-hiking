@@ -284,16 +284,24 @@ th {
     margin-bottom: 10px;
 }
 
-/*404 error page */
+/*404 error page  */
 
 .error {
     text-align: center;
+    font-size: x-large;
 }
 
 .error-img {
     width: 20%;
 }
 
+.error p {
+    font-size: x-large;
+}
+
+.error a {
+    color: orange;
+}
 
 /*media Queries 1010 */
 @media only screen and (max-width:1010px) {
