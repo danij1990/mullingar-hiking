@@ -724,6 +724,7 @@ th {
     .form-container form {
         margin-right: 60px;
         width: 200px;
+        margin-top: -200px;
     }
 
     #thank-you p {
