@@ -283,6 +283,17 @@ th {
     margin-bottom: 10px;
 }
 
+/*404 error page */
+
+.error {
+    text-align: center;
+}
+
+.error-img {
+    width: 20%;
+}
+
+
 /*media Queries 1010 */
 @media only screen and (max-width:1010px) {
     #story {
