@@ -20,7 +20,7 @@ body {
 
 /* navigation bar and logo */
 #logo {
-    color: white;
+    color: black;
     font-size: 55px;
     line-height: 60px;
     padding-left: 20px;
@@ -50,7 +50,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: black;
     font-size: 30px;
     text-transform: uppercase;
     padding-right: 20px;
@@ -127,6 +127,7 @@ th {
 th {
     background-color: orange;
     font-weight: bold;
+    color: black;
 }
 
 /* travel-flex-container section with images */
@@ -321,7 +322,7 @@ th {
     }
 
     #logo {
-        color: white;
+        color: black;
         display: flex;
         display: block;
         font-size: 40px;
@@ -410,7 +411,7 @@ th {
 
 @media only screen and (max-width: 780px) {
     #logo {
-        color: white;
+        color: black;
         display: flex;
         display: block;
         font-size: 40px;
@@ -547,7 +548,7 @@ th {
 /* add style for smaller mobile screens*/
 @media only screen and (max-width: 450px) {
     #logo {
-        color: white;
+        color: black;
         display: flex;
         display: block;
         font-size: 22px;
