@@ -68,6 +68,8 @@ Thank you page :
 
 With no PHP database to store my form entries, my mentor suggested creating a thank you page. I designed a simple HTML page, once again utilizing the same navigation and footer as the previous pages to maintain consistency in the flow of the website. On this page, I included a straightforward H1 'Thank you' heading with a brief message. Additionally, I implemented a Meta Refresh and linked it to my index.html page, so after 10 seconds, the user would be redirected back to the homepage of my site.
 
+My website should no errors or contrast errors when I ran it thorugh WAVE (web accessibility evaluation tool)
+
 ## Features
 
 Home Page:
