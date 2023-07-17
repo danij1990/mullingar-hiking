@@ -96,6 +96,10 @@ Auto-Redirect: Automatically redirects the user to the home page after 10 second
 
 These features provide essential components for the Mullingar Hiking Group's website, allowing visitors to learn about the group, explore photos from past expeditions, and express their interest in joining. The automatic redirection from the thank you page to the home page ensures a smooth flow for users after submitting the form.
 
+404 page:
+
+The 404 page is an essential component of our website's user experience. When a user tries to access a page that doesn't exist or encounters an error, our 404 page is displayed to guide them. This page is designed to provide a user-friendly and informative experience, helping visitors navigate back to our website's main content. It includes a clear message indicating that the requested page couldn't be found and offers a prominent link back to the home page, ensuring users can easily return to familiar territory. We have also carefully designed the 404 page to maintain the overall look and feel of our website, providing a cohesive and branded experience even in error situations.
+
 ## Bugs
 
 I encountered a peculiar issue with my homepage not rendering correctly on mobile screens. It would only occupy half of the phone's width. To investigate and troubleshoot the problem, I utilized dev tools and accessed my GitHub pages on my mobile phone. I have attached screenshots to provide a clearer understanding of the issue.
