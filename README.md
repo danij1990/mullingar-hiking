@@ -9,6 +9,7 @@
 - [Features](#features)
 - [Bugs](#bugs)
 - [Code validation](#Code validation )
+- [Deployed Link ](#Deployed Link )
 - [Contact](#contact)
 
 ## Description
@@ -119,6 +120,13 @@ I spent the whole day on Slack and Stack Overflow looking for a fix for this bug
 ## Code validation
 
 I made sure to validate all my HTML pages, including the index, form, gallery, thank you, and 404 pages, using the W3C Validator. This tool thoroughly examined my code and ensured its compliance with HTML standards. I'm pleased to report that all my HTML code passed the validation process without any errors. Similarly, I also ran my CSS code through the validator, and it successfully cleared the validation with no issues. Taking these steps to validate both my HTML and CSS code gives me confidence that my website meets the industry standards and follows best practices, resulting in a well-structured and error-free codebase.
+
+
+## Deployed Link 
+
+I have developed a project using HTML and CSS, and it is currently hosted on GitHub Pages. To create the project, I utilized Code Anywhere as my code editor. If you wish to explore the project, you can visit the deployed link at:
+
+ https://danij1990.github.io/mullingar-hiking/index.html.
 
 ## Contact
 
