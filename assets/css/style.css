@@ -237,7 +237,7 @@ th {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 220px;
+    padding: 180px;
     margin-top: -10%;
 }
 
@@ -539,13 +539,15 @@ th {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 220px;
+        padding-top: 220px;
+        padding-right: 110px;
         margin-top: -40%;
     }
 
     .form-container form {
         padding-top: inherit;
-        width: 80%;
+        width: 100%;
+        margin-right: 25%;
     }
 }
 
@@ -614,7 +616,8 @@ th {
     }
 
     .heading-hikes {
-        font-size: 30px;
+        font-size: 25px;
+        text-align: center;
     }
 
     #hikes {
@@ -682,7 +685,7 @@ th {
     }
 
     .form-container form {
-        margin-right: 60px;
+        margin-right: 80px;
         width: 200px;
         margin-top: -200px;
     }
