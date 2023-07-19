@@ -266,6 +266,8 @@ th {
     padding: 20px;
 }
 
+/* Thankyou.html page css*/
+
 #thank-you {
     text-align: center;
     margin-bottom: 400px;
@@ -290,6 +292,7 @@ th {
     font-size: 30px;
     margin-top: 0;
     margin-bottom: 10px;
+    padding: 0 50px;
 }
 
 /*404 error page stying   */
@@ -423,6 +426,7 @@ th {
 
     #thank-you p {
         width: fit-content;
+        padding: 0;
     }
 }
 
@@ -564,6 +568,7 @@ th {
 
 #thank-you p {
     width: fit-content;
+    padding: 0;
 }
 
 /* add style for smaller mobile screens 450px */

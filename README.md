@@ -8,13 +8,13 @@
 - [Technologies Used](#technologies-used)
 - [Features](#features)
 - [Bugs](#bugs)
-- [Code-validation](#Code validation)
-- [Deployed-Link](#Deployed Link)
+- [Code](#Code)
+- [Deployed](#Deployed)
+- [Testing](#Testing)
 - [Contact](#contact)
 
 ## Description
 
-![Deployed Image ](assets/images/deploy.jpeg)
 "This website aims to enhance the brand of Mullingar Hiking, which has experienced significant growth in its membership over the past few years. The breathtaking pictures captured during these hikes are truly exceptional. To showcase these remarkable experiences, I have created a gallery page where people can also share their own hiking adventures through the website."
 
 ## Technologies Used
@@ -74,22 +74,23 @@ My website should no errors or contrast errors when I ran it thorugh WAVE (web a
 
 ## Features
 
-# Home Page: ![Home Page](assets/images/homepage.png)
+Home Page: ![Home Page](assets/images/homepage.png)
 
 About Me Section: Provides information about the Mullingar Hiking Group and its background.
 Our Mission Section: Describes the group's mission, goals, and values.
 Pictures from the 2023 Mont Blanc Expedition: Displays images showcasing the group's recent adventure.
+Gallery Page:
 
-# Gallery Page: (Member Pictures): ![gallery](assets/images/gallery.png)
+Gallery (Member Pictures): ![gallery](assets/images/gallery.png)
 
 Displays a collection of photos contributed by the group's members. This allows members to share their hiking experiences visually.
 Join Our Family Form Page:
 
-# Join our famly: (Form Submission): ![from page](assets/images/form1.png)
+Join our famly (Form Submission): ![from page](assets/images/form1.png)
 
 Offers a form for users interested in joining the Mullingar Hiking Group. Users can provide their information and submit the form.
 
-# Thank You Page: ![Thank you page ](assets/images/thankyou.png)
+Thank You Page: ![Thank you page ](assets/images/thankyou.png)
 
 Confirmation Message: Displays a thank you message to users who have successfully submitted the join form.
 
@@ -97,7 +98,7 @@ Auto-Redirect: Automatically redirects the user to the home page after 10 second
 
 These features provide essential components for the Mullingar Hiking Group's website, allowing visitors to learn about the group, explore photos from past expeditions, and express their interest in joining. The automatic redirection from the thank you page to the home page ensures a smooth flow for users after submitting the form.
 
-# 404 page: ![404 page ](assets/images/404.png)
+404 page: ![404 page ](assets/images/404.png)
 
 The 404 page is an essential component of our website's user experience. When a user tries to access a page that doesn't exist or encounters an error, our 404 page is displayed to guide them. This page is designed to provide a user-friendly and informative experience, helping visitors navigate back to our website's main content. It includes a clear message indicating that the requested page couldn't be found and offers a prominent link back to the home page, ensuring users can easily return to familiar territory. We have also carefully designed the 404 page to maintain the overall look and feel of our website, providing a cohesive and branded experience even in error situations.
 
@@ -115,41 +116,35 @@ Please refer to the attached screenshots for a visual representation of the prob
 
 I spent the whole day on Slack and Stack Overflow looking for a fix for this bug. I posted my project for review in the peer-review section of Slack. A few kind people responded with different suggestions, but none of them worked. Eventually, I received more tutoring support from Code Institute, and Sean suggested that I might be using too much padding on the homepage elements for smaller screen sizes. I went through my CSS and noticed that I had a lot of padding on my 'about-us' and 'our mission' sections. I removed the padding and added a margin of 20px. Finally, my project started rendering correctly. I have attached a screenshot of the padding I removed from a previous Git commit.
 
-![Issue Fixed](assets/images/bugfix.png)
+[Image not rendered correctly](assets/images/bugfix.png)
 
-## Code validation
+## Code
 
 I made sure to validate all my HTML pages, including the index, form, gallery, thank you, and 404 pages, using the W3C Validator. This tool thoroughly examined my code and ensured its compliance with HTML standards. I'm pleased to report that all my HTML code passed the validation process without any errors. Similarly, I also ran my CSS code through the validator, and it successfully cleared the validation with no issues. Taking these steps to validate both my HTML and CSS code gives me confidence that my website meets the industry standards and follows best practices, resulting in a well-structured and error-free codebase.
 
-Home page html : https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanij1990.github.io%2Fmullingar-hiking%2F
-
-![Home page Validation](assets/images/omehtml.png)
-
-Gallery Page : https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanij1990.github.io%2Fmullingar-hiking%2Fgallery.html
-
-![Gallery page Validation](assets/images/galleryhtml.png)
-
-Join our family : https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanij1990.github.io%2Fmullingar-hiking%2Fform.html
-
-![Form page Validation](assets/images/formhtml.png)
-
-Thank you Page : https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanij1990.github.io%2Fmullingar-hiking%2Fform.html
-
-![Form page Validation](assets/images/thankshtml.png)
-
-404 : Direct HTML input to w3c no link to provide please see screenshot.
-
-![Home page Validation](assets/images/404htmll.png)
-
-CSS : Direct CSS input to Jigsaw no link ot provide please see screenshot.
-
-![Css page Validation](assets/images/cssjig.png)
-
-## Deployed Link
+## Deployed
 
 I have developed a project using HTML and CSS, and it is currently hosted on GitHub Pages. To create the project, I utilized Code Anywhere as my code editor. If you wish to explore the project, you can visit the deployed link at:
 
 https://danij1990.github.io/mullingar-hiking/index.html.
+
+![Deployed Image ](assets/images/deploy.jpeg)
+
+## Testing
+
+# Responsiveness
+
+To ensure optimal responsiveness for my website, I undertook a rigorous testing process across various breakpoints, namely 1010px, 780px, and 450px media queries. With the primary objective of delivering a flawless user experience, I meticulously assessed every aspect of the website's design and functionality at each breakpoint.
+
+Starting with the 1010px breakpoint, I focused on the transition from desktop to tablet view. I evaluated the layout, font sizes, and image scaling to guarantee a seamless visual transition without sacrificing content integrity. The navigation was thoroughly scrutinized to ensure easy access to all sections, while maintaining an uncluttered and intuitive feel.
+
+Moving on to the 780px breakpoint, my attention shifted to optimizing the website for tablet and larger phone screens. I fine-tuned the spacing, margins, and padding to create a balanced and aesthetically pleasing layout. Buttons and interactive elements were adjusted to be touch-friendly, enhancing user engagement and interaction.
+
+Finally, I tested the website at the 450px media query, where the focus was on ensuring the site's adaptability to smaller phone screens. This demanded careful consideration of font sizes, images, and the reorganization of content to fit within the limited space without compromising readability or usability.
+
+Throughout the testing process, I meticulously reviewed the site's behavior and appearance at each breakpoint, and the results were highly gratifying. The website demonstrated remarkable responsiveness, flawlessly adjusting its layout and design according to the screen size. Each breakpoint offered a seamless user experience, and the content remained easily accessible and legible across all devices.
+
+In conclusion, the meticulous testing of my website at breakpoints of 1010px, 780px, and 450px media queries yielded the desired outcome. The site displayed exceptional responsiveness, effortlessly adapting to various screen sizes while retaining its functionality and aesthetics. Users could navigate the website effortlessly, regardless of the device they were using, culminating in a successful implementation of the correct actions required for a seamless and user-friendly experience.
 
 ## Contact
 
