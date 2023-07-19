@@ -79,14 +79,13 @@ Home Page: ![Home Page](assets/images/homepage.png)
 About Me Section: Provides information about the Mullingar Hiking Group and its background.
 Our Mission Section: Describes the group's mission, goals, and values.
 Pictures from the 2023 Mont Blanc Expedition: Displays images showcasing the group's recent adventure.
-Gallery Page:
 
-Gallery (Member Pictures): ![gallery](assets/images/gallery.png)
+Gallery Page: (Member Pictures): ![gallery](assets/images/gallery.png)
 
 Displays a collection of photos contributed by the group's members. This allows members to share their hiking experiences visually.
 Join Our Family Form Page:
 
-Join our famly (Form Submission): ![from page](assets/images/form1.png)
+Join our famly: (Form Submission): ![from page](assets/images/form1.png)
 
 Offers a form for users interested in joining the Mullingar Hiking Group. Users can provide their information and submit the form.
 
@@ -116,7 +115,7 @@ Please refer to the attached screenshots for a visual representation of the prob
 
 I spent the whole day on Slack and Stack Overflow looking for a fix for this bug. I posted my project for review in the peer-review section of Slack. A few kind people responded with different suggestions, but none of them worked. Eventually, I received more tutoring support from Code Institute, and Sean suggested that I might be using too much padding on the homepage elements for smaller screen sizes. I went through my CSS and noticed that I had a lot of padding on my 'about-us' and 'our mission' sections. I removed the padding and added a margin of 20px. Finally, my project started rendering correctly. I have attached a screenshot of the padding I removed from a previous Git commit.
 
-[Image not rendered correctly](assets/images/bugfix.png)
+![Issue Fixed](assets/images/bugfix.png)
 
 ## Code validation
 
@@ -124,15 +123,27 @@ I made sure to validate all my HTML pages, including the index, form, gallery, t
 
 Home page html : https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanij1990.github.io%2Fmullingar-hiking%2F
 
+![Home page Validation](assets/images/omehtml.png)
+
 Gallery Page : https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanij1990.github.io%2Fmullingar-hiking%2Fgallery.html
+
+![Gallery page Validation](assets/images/galleryhtml.png)
 
 Join our family : https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanij1990.github.io%2Fmullingar-hiking%2Fform.html
 
+![Form page Validation](assets/images/formhtml.png)
+
 Thank you Page : https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanij1990.github.io%2Fmullingar-hiking%2Fform.html
+
+![Form page Validation](assets/images/thankshtml.png)
 
 404 : Direct HTML input to w3c no link to provide please see screenshot.
 
+![Home page Validation](assets/images/404htmll.png)
+
 CSS : Direct CSS input to Jigsaw no link ot provide please see screenshot.
+
+![Css page Validation](assets/images/cssjig.png)
 
 ## Deployed Link
 
