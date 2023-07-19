@@ -73,23 +73,23 @@ My website should no errors or contrast errors when I ran it thorugh WAVE (web a
 
 ## Features
 
-Home Page:
+Home Page: ![Home Page](assets/images/homepage.png)
 
 About Me Section: Provides information about the Mullingar Hiking Group and its background.
 Our Mission Section: Describes the group's mission, goals, and values.
 Pictures from the 2023 Mont Blanc Expedition: Displays images showcasing the group's recent adventure.
 Gallery Page:
 
-Gallery (Member Pictures):
+Gallery (Member Pictures): ![gallery](assets/images/gallery.png)
 
 Displays a collection of photos contributed by the group's members. This allows members to share their hiking experiences visually.
 Join Our Family Form Page:
 
-Join our famly (Form Submission):
+Join our famly (Form Submission): ![from page](assets/images/form1.png)
 
 Offers a form for users interested in joining the Mullingar Hiking Group. Users can provide their information and submit the form.
 
-Thank You Page:
+Thank You Page: ![Thank you page ](assets/images/thankyou.png)
 
 Confirmation Message: Displays a thank you message to users who have successfully submitted the join form.
 
@@ -97,7 +97,7 @@ Auto-Redirect: Automatically redirects the user to the home page after 10 second
 
 These features provide essential components for the Mullingar Hiking Group's website, allowing visitors to learn about the group, explore photos from past expeditions, and express their interest in joining. The automatic redirection from the thank you page to the home page ensures a smooth flow for users after submitting the form.
 
-404 page:
+404 page: ![404 page ](assets/images/404.png)
 
 The 404 page is an essential component of our website's user experience. When a user tries to access a page that doesn't exist or encounters an error, our 404 page is displayed to guide them. This page is designed to provide a user-friendly and informative experience, helping visitors navigate back to our website's main content. It includes a clear message indicating that the requested page couldn't be found and offers a prominent link back to the home page, ensuring users can easily return to familiar territory. We have also carefully designed the 404 page to maintain the overall look and feel of our website, providing a cohesive and branded experience even in error situations.
 
@@ -127,6 +127,8 @@ I made sure to validate all my HTML pages, including the index, form, gallery, t
 I have developed a project using HTML and CSS, and it is currently hosted on GitHub Pages. To create the project, I utilized Code Anywhere as my code editor. If you wish to explore the project, you can visit the deployed link at:
 
  https://danij1990.github.io/mullingar-hiking/index.html.
+
+ ![Deployed Image ](assets/images/deploy.jpeg)
 
 ## Contact
 
