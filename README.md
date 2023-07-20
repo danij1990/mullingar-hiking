@@ -118,11 +118,20 @@ Please refer to the attached screenshots for a visual representation of the prob
 
 I spent the whole day on Slack and Stack Overflow looking for a fix for this bug. I posted my project for review in the peer-review section of Slack. A few kind people responded with different suggestions, but none of them worked. Eventually, I received more tutoring support from Code Institute, and Sean suggested that I might be using too much padding on the homepage elements for smaller screen sizes. I went through my CSS and noticed that I had a lot of padding on my 'about-us' and 'our mission' sections. I removed the padding and added a margin of 20px. Finally, my project started rendering correctly. I have attached a screenshot of the padding I removed from a previous Git commit.
 
-[Image not rendered correctly](assets/images/bugfix.png)
+![Image not rendered correctly](assets/images/bugfix.png)
 
 ## Code
 
 I made sure to validate all my HTML pages, including the index, form, gallery, thank you, and 404 pages, using the W3C Validator. This tool thoroughly examined my code and ensured its compliance with HTML standards. I'm pleased to report that all my HTML code passed the validation process without any errors. Similarly, I also ran my CSS code through the validator, and it successfully cleared the validation with no issues. Taking these steps to validate both my HTML and CSS code gives me confidence that my website meets the industry standards and follows best practices, resulting in a well-structured and error-free codebase.
+
+Home page html : https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanij1990.github.io%2Fmullingar-hiking%2F
+
+Gallery Page : https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanij1990.github.io%2Fmullingar-hiking%2Fgallery.html
+
+Join our family : https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanij1990.github.io%2Fmullingar-hiking%2Fform.html
+
+Thank you Page : https://validator.w3.org/nu/?doc=https%3A%2F%2Fdanij1990.github.io%2Fmullingar-hiking%2Fform.html
+
 
 ## Deployed
 
@@ -161,3 +170,5 @@ Email : danijhughes@gmail.com
 Git Hub : danij1990
 
 Linkedin: https://www.linkedin.com/in/daniel-hughes-36a948258/
+
+Facebook: https://www.facebook.com/danny.hughes.96558
